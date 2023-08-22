@@ -55,7 +55,7 @@ var reader = { name: "meir", age: 26, isStudent: true, favoriteBook: { Title: "j
 //12
 function adultReader(arr) {
     var age = 0;
-    var old = Reader;
+    var old = arr[0];
     for (var i = 0; i < arr.length; i++) {
         if (arr[i].age > age)
             old = arr[i];

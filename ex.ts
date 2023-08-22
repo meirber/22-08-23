@@ -79,7 +79,7 @@ const reader : Reader = {name: "meir", age: 26, isStudent: true, favoriteBook:{T
 //12
 function adultReader(arr:Reader[]): Reader{
     let age: number = 0;
-    let old: Reader = Reader;
+    let old: Reader = arr[0];
     for (let i = 0; i < arr.length; i++) {
         if (arr[i].age > age) old = arr[i]
     }

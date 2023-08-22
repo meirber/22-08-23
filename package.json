@@ -5,7 +5,9 @@
   "main": "ex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc --watch ./ex.ts"
+    "start": "tsc --watch ./ex.ts",
+    "start2": "tsc --watch ./ex2.ts"
+
   },
   "author": "",
   "license": "ISC",
